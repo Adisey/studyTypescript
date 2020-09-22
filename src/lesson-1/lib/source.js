@@ -9,7 +9,7 @@ export const defaults = {
     negativePattern: '-!#',
 };
 
-const round = (v) => Math.round(v);
+export const round = (v) => Math.round(v);
 const pow = (p) => Math.pow(10, p);
 const rounding = (value, increment) => round(value / increment) * increment;
 
