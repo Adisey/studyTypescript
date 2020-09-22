@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const calc_1 = require("./calc");
+const source_1 = require("./lib/source");
+const qq = new source_1.currency();
+qq.add(3);
+const aa = qq.toString();
+console.log(+new Date(), '-()->', typeof calc_1.aaa, `-aaa->`, calc_1.aaa);
+console.log(+new Date(), '-()->', typeof qq, `-qq->`, qq);
+console.log(+new Date(), '-()->', typeof aa, `-aa->`, aa);
