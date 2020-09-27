@@ -1,3 +1,4 @@
+
 interface IEmitter {
   on?: (type: any, handler:any)=> void
   off?: (type: any, handler:any)=> void

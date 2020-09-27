@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start.lesson-1": "tsc-watch --onsuccess \"node dist/lesson-1/index.js\""
+    "start.lesson-1": "tsc-watch --onsuccess \"node dist/lesson-1/index.js\"",
+    "start.lesson-2": "tsc-watch --onsuccess \"node dist/lesson-2/index.js\""
   },
   "keywords": [],
   "author": "",
